@@ -1,0 +1,126 @@
+body, header, div, nav, ul, li, a, button, h1, h2 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./Fontes/Roboto-Regular.ttf");
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    width: 900px;
+    margin: 30px auto;
+    border: solid 1px black;
+    border-radius: 30px;
+    background-color: rgb(32, 31, 31);
+    
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+    font-family: "Roboto";
+}
+
+div {
+    text-align: center;
+
+}
+
+ul {
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 170px;
+    height: 170px;
+
+}
+
+p {
+    color: white;
+    font-family: "Roboto";
+}
+
+li:hover {
+    border: solid 1px white;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.addperfil {
+    width: 170px;
+    height: 170px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(83, 80, 80);
+}
+
+.addperfil:hover {
+    background-color: rgb(187, 179, 179);
+    border: solid 1px white;
+}
+
+.divgerenciar {
+    text-align: center;
+    
+}
+
+.gerenciarbotao {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 230px;
+    height: 40px;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    border-color: white;
+    font-family: "Roboto";
+    font-size: 15px;
+    
+}
+
+.gerenciarbotao:hover {
+    background-color: white;
+    color: black;
+}
+
+li img {
+    border-radius: 10px;
+    transition: all 0.5s;
+
+}
+
+li img:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+}
